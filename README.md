@@ -72,4 +72,4 @@
    - Please note feature flag "EmailUser" still under construction, once this is complete will add information about it.
   
   # Support :
-   - contact pranali.u@gmail.com
+   - contact support@wseteam955093.testinator.com
