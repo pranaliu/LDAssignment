@@ -32,6 +32,7 @@
 - Click on tab Feature flags -> create flag.
 - Add below feature flags as described with name and type. 
   Click the checkbox on for SDKs using Client-side ID for all flags defined.
+  
     i. headerText : "Boolean" type flag variation. Variation is true or false and add your description and rest other details. 
                      After save, on the targeting tab add default serve false when targeting is off.
   
@@ -60,8 +61,10 @@
   npm install react-router
   
 # How to run application code?
-- Open visual studio code terminal. Go to your React project root folder.  
-   i.   Install react-scripts with this command: npm i react-scripts  
+- Open visual studio code terminal. Go to your React project root folder.
+
+   i.   Install react-scripts with this command: npm i react-scripts 
+   
    ii.  Run application with command npm start
   
  # Toggle feature flags in LaunchDarkly platform to test application.
