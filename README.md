@@ -66,4 +66,7 @@
   
  # Toggle feature flags in LaunchDarkly platform to test application.
    - Toggle on/off feature flag for testing. 
-   - Please note EmailUser still under construction.
+   - Please note feature flag "EmailUser" still under construction, once this is complete will add information about it.
+  
+  # Support :
+   - contact pranali.u@gmail.com
