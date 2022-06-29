@@ -18,7 +18,7 @@
 - After pulling repo code, check that pulled code is accessible in your text code editor.
 
 # How to configure LaunchDarkly platform?       
-- Once you have access to LaunchDarkly platform you will see by default one project (name of organization you enter while starting free trial) is available to you.       
+- Once you have access to LaunchDarkly platform you will see by default one project (name of organization you enter while starting free trial) is available   to you.       
 - After clicking on the project by default production and test environments are available.
 - Configure an additional environment (for example Dev) if you need to use it for a sample application test. 
   Click on Account Settings -> Projects -> <your project> -> Environment -> create environment       
@@ -32,18 +32,21 @@
 - Click on tab Feature flags -> create flag.
 - Add below feature flags as described with name and type. 
   Click the checkbox on for SDKs using Client-side ID for all flags defined.
-  1. headerText : "Boolean" type flag variation. Variation is true or false and add your description and rest other details. 
-                  After save, on the targeting tab add default serve false when targeting is off.
-  2. footerText : "String" type flag variation. 
-                  Add variation1 value "Join new and fast way of deploying your features" for key LD text. 
-                  Add variation2 value "LaunchDarkly is not yet an option?" 
-                  For true add variation value1 with key "LDText". for false variation value2, add key "NoLDText".
-  3. logoSwitch : "Boolean" type flag variation. Variation is true or false. 
-                  After save, on the targeting tab add default serve false when targeting is off.
-  4. EmailUser  : "Boolean" type flag variation. Variation is true or false. 
-                  After save, on the targeting tab add default serve false when targeting is off.
-                  In the Targeting section Target users who match these rules,
-                  add If email ends with and supply your preferred email domain for example "gmail.com".
+    i. headerText : "Boolean" type flag variation. Variation is true or false and add your description and rest other details. 
+                     After save, on the targeting tab add default serve false when targeting is off.
+  
+    ii.footerText : "String" type flag variation. 
+                     Add variation1 value "Join new and fast way of deploying your features" for key LD text. 
+                     Add variation2 value "LaunchDarkly is not yet an option?" 
+                     For true add variation value1 with key "LDText". for false variation value2, add key "NoLDText".
+  
+   iii.logoSwitch : "Boolean" type flag variation. Variation is true or false. 
+                      After save, on the targeting tab add default serve false when targeting is off.
+  
+  iv. EmailUser   : "Boolean" type flag variation. Variation is true or false. 
+                     After save, on the targeting tab add default serve false when targeting is off.
+                     In the Targeting section Target users who match these rules,
+                     add If email ends with and supply your preferred email domain for example "gmail.com".
                   
 # How to configure the LaunchDarkly environment in your application code?     
 - Install LaunchDarkly REACT Web SDK in your environment through visual studio code terminal.
@@ -58,5 +61,9 @@
   
 # How to run application code?
 - Open visual studio code terminal. Go to your React project root folder.  
-  1. Install react-scripts with this command: npm i react-scripts  
-  2. Run application with command npm start
+   i.   Install react-scripts with this command: npm i react-scripts  
+   ii.  Run application with command npm start
+  
+ # Toggle feature flags in LaunchDarkly platform to test application.
+   - Toggle on/off feature flag for testing. 
+   - Please note EmailUser still under construction.
